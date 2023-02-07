@@ -22,7 +22,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
     // mapbox/outdoors-v11
     // mapbox/light-v10
     // mapbox/dark-v10
-    id: 'mapbox/satellite-v9',
+    //id: 'mapbox/satellite-v9',
     // mapbox/satellite-streets-v11
     
     //tileSize: 512,
