@@ -34,6 +34,8 @@ let sanFranAirport =
 
 // }).addTo(map);
 
+
+// Grabbing our GeoJSON data alternative
 L.geoJSON(sanFranAirport, {
   onEachFeature: function(feature, layer) {
     console.log(layer);
