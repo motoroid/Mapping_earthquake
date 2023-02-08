@@ -50,5 +50,17 @@ d3.json(earthquake_7_days).then(function(data) {
   console.log(data);
 // Creating a GeoJSON layer with the retrieved data.
 L.geoJSON(data).addTo(map);
-});
+// // Creating a GeoJSON layer with the retrieved data.
+// L.geoJSON(data, {
+
+//   // We turn each feature into a circleMarker on the map.
+  
+//   pointToLayer: function(feature, latlng) {
+//               console.log(data);
+//               return L.circleMarker(latlng);
+//           },
+//       }).addTo(map);
+  });
+
+
 
